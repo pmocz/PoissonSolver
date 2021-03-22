@@ -63,7 +63,7 @@ def main():
 	im2 = ax2.imshow(V[:,:,40], vmin=-12, vmax=12, cmap='RdBu', aspect=1)
 	cbar = fig.colorbar(im2, ax=ax2)
 	
-	plt.savefig('potential.pdf', bbox_inches='tight')
+	plt.savefig('potential.png', bbox_inches='tight')
 	plt.show()
 	
 	
